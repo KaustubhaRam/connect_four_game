@@ -15,7 +15,7 @@ function createBoard() {
             cell.dataset.col = col;
             cell.addEventListener('click', handleCellClick);
             board[row][col] = '';
-            boardElement.appendChild(cell)
+            boardElement.appendChild(cell);
         }
     }
 }
